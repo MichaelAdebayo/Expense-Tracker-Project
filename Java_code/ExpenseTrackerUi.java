@@ -9,6 +9,11 @@ import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 public class ExpenseTrackerUi extends Application {
  public static void main(String[] args) {
         launch(args);
@@ -49,6 +54,7 @@ signUp.setOnAction( e -> {
     System.out.println("Sign Up Clicked");
     System.out.println("User ID: " + userIdTextField.getText());
     System.out.println("User Name: " + userNameTextField.getText());
+    DatabaseConnection.insertUser(Integer.parseInt(userIdTextField.getText()), userNameTextField.getText());
 });{
 
 }
