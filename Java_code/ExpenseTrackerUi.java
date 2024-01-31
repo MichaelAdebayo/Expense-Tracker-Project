@@ -25,6 +25,7 @@ public void start(Stage primaryStage) throws Exception {
     TextField userNameTextField = new TextField();
 
     Button addUserButton = new Button("Sign Up");
+    Button signIn = new Button("Sign In");
 
     StackPane stackPane = new StackPane();
     stackPane.getChildren().add(addUserButton);
