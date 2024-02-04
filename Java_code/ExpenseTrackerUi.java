@@ -30,8 +30,7 @@ public void start(Stage primaryStage) throws Exception {
     Button signUp = new Button("Sign Up");
     Button signIn = new Button("Sign In");
 
-    //StackPane stackPane = new StackPane();
-   //stackPane.getChildren().add(signUp);
+   
     
       GridPane gridPane = new GridPane();
         gridPane.setPadding(new Insets(10, 10, 10, 10));
