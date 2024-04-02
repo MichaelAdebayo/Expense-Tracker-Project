@@ -6,6 +6,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 public class ActionButtons {
     //This method opens a new window with the user's name as they sign up
     public static void openNewWindow(String userName) {

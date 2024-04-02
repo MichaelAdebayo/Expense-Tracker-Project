@@ -20,5 +20,11 @@
         "c:\\Users\\mky07\\Downloads\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0.jar",
         "c:\\Program Files\\MySQL\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0.jar"
     ],
-    "maven.view": "flat"
+    "maven.view": "flat",
+    "java.project.sourcePaths": [
+        "src/Java_code",
+        "src/HelloFX/src",
+        "src/demo/src/main/java/com/example"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
